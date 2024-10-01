@@ -128,12 +128,6 @@ namespace QuizPortal
             btnMakeProfile.Visible = false;
             ScriptManager.RegisterStartupScript(this, this.GetType(), "hideModal", "$('#profileModal').modal('hide');", true);
         }
-
-        protected void btnUpdateProfile(object sender, EventArgs e)
-        {
-            Response.Write("Update Clicked !");
-        }
-
         protected void btnLogout_Click(object sender, EventArgs e)
         {
             Session.Abandon();

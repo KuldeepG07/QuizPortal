@@ -82,6 +82,7 @@
     <Content Include="quiz.aspx" />
     <Content Include="result.aspx" />
     <Content Include="scores.aspx" />
+    <Content Include="updateprofile.aspx" />
     <Content Include="Web.config" />
     <Content Include="signup.aspx" />
   </ItemGroup>
@@ -152,6 +153,13 @@
     </Compile>
     <Compile Include="signup.aspx.designer.cs">
       <DependentUpon>signup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="updateprofile.aspx.cs">
+      <DependentUpon>updateprofile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="updateprofile.aspx.designer.cs">
+      <DependentUpon>updateprofile.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

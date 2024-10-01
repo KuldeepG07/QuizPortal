@@ -118,8 +118,6 @@ namespace QuizPortal
                     cmd.ExecuteNonQuery();
                 }
             }
-
-            // Refresh the quiz list and dropdown
             LoadQuizzes();
             PopulateQuizDropdown();
             ClearQuizForm();

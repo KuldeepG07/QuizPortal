@@ -80,7 +80,7 @@
                     <p><b>Date of Birth:</b> <asp:Label ID="lblDOB" runat="server"></asp:Label></p>
 
                     <div class="mt-4">
-                        <asp:Button ID="btnUpdate" runat="server" Text="Update" CssClass="btn btn-warning" OnClick="btnUpdateProfile" />
+                        <asp:Button ID="btnUpdate" runat="server" Text="Update" CssClass="btn btn-warning" PostBackUrl="~/updateprofile.aspx" />
                         <asp:Button ID="btnChangePassword" runat="server" Text="Change Password" CssClass="btn btn-primary" PostBackUrl="~/changepwd.aspx" />
                         <asp:Button ID="btnLogout" runat="server" Text="Logout" CssClass="btn btn-danger" OnClick="btnLogout_Click" />
                     </div>

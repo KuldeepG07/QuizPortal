@@ -287,7 +287,7 @@
         <asp:TextBox ID="txtDescription" runat="server" TextMode="MultiLine" Rows="3" CssClass="form-control" />
     </div>
     <div class="form-group">
-        <label for="filePhoto">Photo (optional):</label>
+        <label for="filePhoto">Photo:</label>
         <asp:FileUpload ID="filePhoto" runat="server" CssClass="form-control" />
     </div>
     <asp:Button ID="btnCreateQuiz" runat="server" Text="Create Quiz" OnClick="btnCreateQuiz_Click" CssClass="btn btn-primary" />
